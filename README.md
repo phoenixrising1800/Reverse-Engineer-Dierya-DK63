@@ -41,7 +41,7 @@ Use this information at your own risk. I'm not liable if you break something.
     * [FCC Doc]
     * [Datasheet]
 
-## Evision VS11K09A-1 Debug Recovery Mode / SWD
+## Sonix SN32F248BFG Debug Recovery Mode / SWD
 ## LEDs
 ## Bluetooth
 
