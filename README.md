@@ -5,6 +5,7 @@ Use this information at your own risk. I'm not liable if you break something.
 
 ## Keyboard
 
+* [Amazon Product Link](https://www.amazon.com/dp/B092DDFKDB)
 * [Vendor Page](https://kmovetech.com/dierya-mechanical-gaming-keyboard-rgb-bluetooth40-wired-wireless-multi-device-iphone-android-mobile-pc-p0013.html)
 * [Firmware Download](https://kmovetech.com/art/download-a0038.html)
 * [Reddit Post](https://www.reddit.com/r/embedded/comments/e4iriu/keyboard_mcu_help/)
@@ -14,24 +15,24 @@ Use this information at your own risk. I'm not liable if you break something.
 
 - [x] Identify MCU `VS11K09A-1` / `Sonix SN32F248BF`
 - [x] Find data sheet [VS11K09A-1](http://evision.net.cn/include/upload/kind/file/20190413/20190413174647_5965.pdf) / [Sonix SN32F248B](http://www.sonix.com.tw/files/1/9BB2674D32FB0D70E050007F01007532)
-- [x] Find SDK and dev tools
-- [x] Get SWD working
-- [x] Ability to flash firmware
-- [x] Get origional firmware
-- [x] Enable SWD in current firmware
-- [x] Port Chibios to `Sonix SN32F248BF` [porting guide](http://wiki.chibios.org/dokuwiki/doku.php?id=chibios:guides:port_guide)
+- [ ] Find SDK and dev tools
+- [ ] Get SWD working
+- [ ] Ability to flash firmware
+- [ ] Get original firmware
+- [ ] Enable SWD in current firmware
+- [ ] Port Chibios to `Sonix SN32F248BF` [porting guide](http://wiki.chibios.org/dokuwiki/doku.php?id=chibios:guides:port_guide)
     - [ ] ~Get compiler to work with `SN32F248BF` Keil packs~
-    - [x] USB LLD
-    - [x] GPIO LLD
+    - [ ] USB LLD
+    - [ ] GPIO LLD
     - [ ] ~UART LLD~
-    - [x] Timers LLD
+    - [ ] Timers LLD
     - [ ] SPI LLD
     - [ ] ~I2C LLD~
-- [x] Get QMK firmware working
-    - [x] Basic keyboard functionality [Build Tools](https://docs.qmk.fm/#/getting_started_build_tools)
-    - [x] RGB Leds and animations `VSPW01` [RGB Matrix](https://docs.qmk.fm/#/feature_rgb_matrix)
+- [ ] Get QMK firmware working
+    - [ ] Basic keyboard functionality [Build Tools](https://docs.qmk.fm/#/getting_started_build_tools)
+    - [ ] RGB Leds and animations `VSPW01` [RGB Matrix](https://docs.qmk.fm/#/feature_rgb_matrix)
     - [ ] Bluetooth `PAR2801QN-GHVC` [docs](https://docs.qmk.fm/#/feature_bluetooth)
-- [x] Dump origional bootloader
+- [ ] Dump original bootloader
 
 ## Chips
 
@@ -107,6 +108,20 @@ Appears to be an another ARM Cortex M0 MCU with UART and GPIO.
 
 ## Links
 
+### Mine
+From the Ground Up: How I Built the Developer's Dream Keyboard
+https://www.toptal.com/embedded/from-the-ground-up-how-i-built-the-developers-dream-keybooard
+
+(Forum) Any details on this microcontroller? 
+https://www.eevblog.com/forum/microcontrollers/hfd2201kba-any-details-on-this-microcontroller/
+
+Analyzing Keyboard Firmware
+https://mrexodia.github.io/reversing/2019/09/28/Analyzing-keyboard-firmware-part-1
+
+QMK Tutorial (Flashing Firmware On Your Keyboard)
+https://www.youtube.com/watch?v=fuBJbdCFF0Q
+
+### Other
 Firmware Updater Executable Analysis
 https://www.hybrid-analysis.com/sample/21cf79c4f5982e0d73e8269c03a043f16898292920074491d5452eea5155e1eb?environmentId=100
 
