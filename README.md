@@ -2,6 +2,7 @@
 
 This project is to reverse engineer the Kemove / DIERYA DK63 to get QMK running on it.
 Use this information at your own risk. I'm not liable if you break something.
+Chip: https://www.keil.com/dd2/sonix/sn32f248bf/
 
 ## Keyboard
 
@@ -35,7 +36,7 @@ Use this information at your own risk. I'm not liable if you break something.
 - [ ] ~Dump original bootloader~
 
 ## Chips
-* Main MCU - Sonix SN32F248BFG, Seems to be based on the [Sonix SN32F248B](https://www.sonix.com.tw/files/1/EABD74BA08999753E050007F01000231)
+* Main MCU - [Sonix SN32F248BFG](https://www.keil.com/dd2/sonix/sn32f248bf/), Seems to be based on the [Sonix SN32F248B](https://www.sonix.com.tw/files/1/EABD74BA08999753E050007F01000231)
 * Bluetooth Transciever - Cypress CYW20730A2KFB(G)
     * [FCC Doc]
     * [Datasheet]
