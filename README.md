@@ -14,8 +14,8 @@ Use this information at your own risk. I'm not liable if you break something.
 ## Tasks
 
 - [x] Identify MCU: `Sonix SN32F248(BFG)`
-- [x] Find data sheet [VS11K09A-1](http://evision.net.cn/include/upload/kind/file/20190413/20190413174647_5965.pdf) / [Sonix SN32F248B](http://www.sonix.com.tw/files/1/9BB2674D32FB0D70E050007F01007532)
-- [ ] Find SDK and dev tools
+- [x] Find data sheet: [Sonix SN32F248B](http://sonix.com.tw/article-en-4336-30356)
+- [x] Find SDK and dev tools
 - [ ] Get SWD working
 - [ ] Ability to flash firmware
 - [ ] Get original firmware
@@ -36,31 +36,14 @@ Use this information at your own risk. I'm not liable if you break something.
 
 ## Chips
 
-* Main MCU - EVision [VS11K09A-1](http://evision.net.cn/include/upload/kind/file/20190413/20190413174647_5965.pdf), Seems to be based on the [Sonix SN32F248BF](http://www.sonix.com.tw/files/1/9BB2674D32FB0D70E050007F01007532)
-* Bluetooth - ~!TON~ PXI Pixart PAR2801QN-GHVC
-    * [FCC Doc](https://fccid.io/2AIPB-PAJ2801UA-40/User-Manual/Users-Manual-3083972) 
-    * [PAR2801QN-GHVC](https://en.sziton.com/wp-content/uploads/datasheets/module/PAR2801-Q32P-datasheet-v1.2.pdf)
-* ~LED driver~ Charging Chip - EVision [VSPW01](http://www.evision.net.cn/include/upload/kind/file/20190413/20190413175237_5340.pdf)
+* Main MCU - Sonix SN32F248BFG, Seems to be based on the [Sonix SN32F248BF](http://www.sonix.com.tw/article-en-4336-30356)
+* Bluetooth Transciever - ~!TON~ Cypress CYW20730A2KFB(G)
+    * [FCC Doc]
+    * [Datasheet]
 
 ## Evision VS11K09A-1 Debug Recovery Mode / SWD
-
-1. Hookup SWCLK, SWDIO, and Ground using the testpoints outlined below
-    ![connections](https://raw.githubusercontent.com/smp4488/dk63/master/photos/IMG_0276-marked.jpg)
-    * Note: These pins are being use by the MCU to control functionality. Im tyring to enable SWD in the default firmware to debug without Debug Recovery Mode.
-2. Hookup the other ends of the wires to your debugger. I used a Raspberry PI 3 and the ST-Link V2.
-3. Using the ground point hold the boot pin to ground while turning on the power.
-
 ## LEDs
-
-They seem to be driven by GPIO and transistors.
-- [ ] Figure out pin map and matrix
-- [ ] Caps lock LED
-
 ## Bluetooth
-
-Appears to be an another ARM Cortex M0 MCU with UART and GPIO.
-- [ ] SWD debugging
-- [ ] Pin map to main MCU
 
 ## Extract default dk63 firmware.hex
 1. Download [Resource Hacker](http://www.angusj.com/resourcehacker/) (Not sure of a mac or linux variant)
@@ -95,7 +78,6 @@ Appears to be an another ARM Cortex M0 MCU with UART and GPIO.
 * [Docker Machine on OS X](http://gw.tnode.com/docker/docker-machine-with-usb-support-on-windows-macos/)
 
 ## Tools
-
 * [Ghidra](https://ghidra-sre.org/)
 * [SVD-Loader](https://leveldown.de/blog/svd-loader/) for Ghidra automates the entire generation of peripheral structs and memory maps for over 650 different microcontrollers
 * [Binary Ninja](https://binary.ninja/)
@@ -107,7 +89,6 @@ Appears to be an another ARM Cortex M0 MCU with UART and GPIO.
 * [ARM Assembly Tutorial](https://azeria-labs.com/writing-arm-assembly-part-1/)
 
 ## Links
-
 ### Mine
 From the Ground Up: How I Built the Developer's Dream Keyboard
 https://www.toptal.com/embedded/from-the-ground-up-how-i-built-the-developers-dream-keybooard
