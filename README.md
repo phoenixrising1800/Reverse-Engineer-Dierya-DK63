@@ -1,6 +1,6 @@
 # DK63 Firmware Reverse Engineering
 
-This project is to reverse engineer the Kmove / DIERYA DK63 to get QMK running on it.
+This project is to reverse engineer the Kemove / DIERYA DK63 to get QMK running on it.
 Use this information at your own risk. I'm not liable if you break something.
 
 ## Keyboard
@@ -14,11 +14,11 @@ Use this information at your own risk. I'm not liable if you break something.
 ## Tasks
 
 - [x] Identify MCU: `Sonix SN32F248(BFG)`
-- [x] Find data sheet: [Sonix SN32F248B](http://sonix.com.tw/article-en-4336-30356)
+- [x] Find data sheet: [Sonix SN32F248B](https://www.sonix.com.tw/files/1/EABD74BA08999753E050007F01000231)
 - [x] Find SDK and dev tools
 - [ ] Get SWD working
-- [ ] Ability to flash firmware
-- [ ] Get original firmware
+- [x] Ability to flash firmware
+- [x] Get original firmware
 - [ ] Enable SWD in current firmware
 - [ ] ~Port Chibios to `Sonix SN32F248BF` [porting guide](http://wiki.chibios.org/dokuwiki/doku.php?id=chibios:guides:port_guide)~
     - [ ] ~Get compiler to work with `SN32F248BF` Keil packs~
@@ -35,8 +35,7 @@ Use this information at your own risk. I'm not liable if you break something.
 - [ ] ~Dump original bootloader~
 
 ## Chips
-
-* Main MCU - Sonix SN32F248BFG, Seems to be based on the [Sonix SN32F248BF](http://www.sonix.com.tw/article-en-4336-30356)
+* Main MCU - Sonix SN32F248BFG, Seems to be based on the [Sonix SN32F248B](https://www.sonix.com.tw/files/1/EABD74BA08999753E050007F01000231)
 * Bluetooth Transciever - Cypress CYW20730A2KFB(G)
     * [FCC Doc]
     * [Datasheet]
