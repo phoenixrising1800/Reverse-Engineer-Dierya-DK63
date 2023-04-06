@@ -20,24 +20,24 @@ Use this information at your own risk. I'm not liable if you break something.
 - [ ] Ability to flash firmware
 - [ ] Get original firmware
 - [ ] Enable SWD in current firmware
-- [ ] Port Chibios to `Sonix SN32F248BF` [porting guide](http://wiki.chibios.org/dokuwiki/doku.php?id=chibios:guides:port_guide)
+- [ ] ~Port Chibios to `Sonix SN32F248BF` [porting guide](http://wiki.chibios.org/dokuwiki/doku.php?id=chibios:guides:port_guide)~
     - [ ] ~Get compiler to work with `SN32F248BF` Keil packs~
-    - [ ] USB LLD
-    - [ ] GPIO LLD
+    - [ ] ~USB LLD~
+    - [ ] ~GPIO LLD~
     - [ ] ~UART LLD~
-    - [ ] Timers LLD
-    - [ ] SPI LLD
+    - [ ] ~Timers LLD~
+    - [ ] ~SPI LLD~
     - [ ] ~I2C LLD~
-- [ ] Get QMK firmware working
-    - [ ] Basic keyboard functionality [Build Tools](https://docs.qmk.fm/#/getting_started_build_tools)
-    - [ ] RGB Leds and animations `VSPW01` [RGB Matrix](https://docs.qmk.fm/#/feature_rgb_matrix)
-    - [ ] Bluetooth `PAR2801QN-GHVC` [docs](https://docs.qmk.fm/#/feature_bluetooth)
-- [ ] Dump original bootloader
+- [ ] ~Get QMK firmware working~
+    - [ ] ~Basic keyboard functionality [Build Tools](https://docs.qmk.fm/#/getting_started_build_tools)~
+    - [ ] ~RGB Leds and animations `VSPW01` [RGB Matrix](https://docs.qmk.fm/#/feature_rgb_matrix)~
+    - [ ] ~Bluetooth `PAR2801QN-GHVC` [docs](https://docs.qmk.fm/#/feature_bluetooth)~
+- [ ] ~Dump original bootloader~
 
 ## Chips
 
 * Main MCU - Sonix SN32F248BFG, Seems to be based on the [Sonix SN32F248BF](http://www.sonix.com.tw/article-en-4336-30356)
-* Bluetooth Transciever - ~!TON~ Cypress CYW20730A2KFB(G)
+* Bluetooth Transciever - Cypress CYW20730A2KFB(G)
     * [FCC Doc]
     * [Datasheet]
 
