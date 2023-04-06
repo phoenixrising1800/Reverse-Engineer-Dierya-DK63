@@ -53,11 +53,11 @@ Use this information at your own risk. I'm not liable if you break something.
 5. Right click on `4000:0` and choose `Save Resource to BIN file`
 6. Save the firmware so it can be examined or uplodaded.
 
-## Firmware Flash
+## Firmware Flash (Chip: SN32F24xB)
 1. Download the USB MCU ISP [tool](http://www.sonix.com.tw/files/1/8226BAA772296B66E050007F010014EB)
 2. Open the program and click load file.
-3. Select `SN32F4xB` and then the firmware file.
-4. The VID should alread be `0C45` and enter `766B` for the PID.
+3. Select `SN32F24xB` (chip) and then the firmware file (should be a .bin).
+4. The VID should alread be `0C45` and enter `8075` for the PID.
 5. Click Start
 6. Profit!
 
